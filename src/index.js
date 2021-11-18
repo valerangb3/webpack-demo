@@ -3,6 +3,13 @@ import './style.css';
 import MyIcon from './icon.png';
 import DataXml from './data.xml';
 import DataCsv from './data.csv';
+import toml from './data.toml';
+import yaml from './data.yaml';
+import json5 from './data.json5';
+
+console.log(toml);
+console.log(yaml);
+console.log(json5);
 
 function component() {
     const element = document.createElement('div');
